@@ -51,8 +51,14 @@ values = ('1234566', 'franco', 'MDZ')
 
 cursor.EXECUTE(sql, values)
 
+
 ```
 - commit changes :
 ```
 midb.commit()
 ```
+- affected rows :
+```
+print(cursor.rowcount)
+```
+
