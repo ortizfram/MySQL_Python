@@ -20,7 +20,9 @@ midb = mysql.connector.connect(
 
 ℹ️`execute()` inside this goes QUERYS
 
-ℹ️`fetchall()` gives results 
+- fetchall : gives all results found
+
+- fetchone : gives only the first result
 
 then you print with an alias assigned to fetchall
 ```
