@@ -49,7 +49,7 @@ sql = 'INSERT INTO customers(phone, first_name, city) values (%s, %s, %s)'
 
 values = ('1234566', 'franco', 'MDZ')
 
-cursor.execute(sql, values)
+cursor.EXECUTE(sql, values)
 
 ```
 - commit changes :
