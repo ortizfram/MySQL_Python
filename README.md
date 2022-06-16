@@ -4,6 +4,12 @@
 
 https://github.com/ortizfram/MySQL-cheatsheet
 
+🔗 thes scripts used for examples 👇
+
+(most of them from first folder)
+
+https://bit.ly/3rvtqdO
+
 
 🧮 import, connect , and choose database
 ```
@@ -33,4 +39,11 @@ cursor.execute('select * from customers')
 result = cursor.fetchall()
 
 print(result)
+```
+
+## entering new data
+1. write the query :
+```
+
+sql = 'insert into customers(phone, first_name)'
 ```
