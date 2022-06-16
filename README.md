@@ -45,5 +45,5 @@ print(result)
 1. write the query :
 ```
 
-sql = 'insert into customers(phone, first_name)'
+sql = 'insert into customers(phone, first_name, city) values (%s, %s, %s)'
 ```
