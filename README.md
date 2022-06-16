@@ -42,8 +42,17 @@ print(result)
 ```
 
 ## entering new data
-1. write the query :
+
 ```
 
-sql = 'insert into customers(phone, first_name, city) values (%s, %s, %s)'
+sql = 'INSERT INTO customers(phone, first_name, city) values (%s, %s, %s)'
+
+values = ('1234566', 'franco', 'MDZ')
+
+cursor.execute(sql, values)
+
+```
+- commit changes :
+```
+midb.commit()
 ```
