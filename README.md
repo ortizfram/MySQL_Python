@@ -1,5 +1,9 @@
 # MySQL_Python
 ## importing data bases in python 
+🌟 here the link to my **SQL cheatsheet** 👇
+
+https://github.com/ortizfram/MySQL-cheatsheet
+
 
 🧮 import, connect , and choose database
 ```
