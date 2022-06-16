@@ -33,25 +33,20 @@ midb = mysql.connector.connect(
 then you print with an alias assigned to fetchall
 ```
 cursor = midb.cursor()
-
 cursor.execute('select * from customers')
-
 result = cursor.fetchall()
-
 print(result)
 ```
 
 ## entering new data
 
 ```
-
 sql = 'INSERT INTO customers(phone, first_name, city) values (%s, %s, %s)'
-
 values = ('1234566', 'franco', 'MDZ')
-
 cursor.EXECUTE(sql, values)
 
-
+resultado = cursor.fetchall()
+print(resultado)
 ```
 - commit changes :
 ```
